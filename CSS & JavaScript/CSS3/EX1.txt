@@ -1,0 +1,13 @@
+<html>
+<style>
+.div{
+border:2px solid;
+padding:20px;
+background-color:dddddd;
+border-top-left-radius:2em;
+}
+</style>
+<body>
+<p class="div">Mechanical Engineering is considered an essential discipline is known for applying engineering principles to various life walks, including design, manufacturing, analysis, maintenance, etc.</p>
+</body>
+</html>

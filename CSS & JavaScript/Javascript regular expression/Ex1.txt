@@ -1,0 +1,46 @@
+<html>
+<style>
+lable{
+display:inline-block;
+width:120px;
+}
+</style>
+<body id="body">
+<form>
+<lable for="membernumber">Member Number : </lable>
+<input type="text" id="membernumber" name="membernumber" value="" placeholder="Enter the member number">
+<br>
+<br>
+<lable for="password">Password : </lable>
+<input type="text" id="password" name="password" value="" placeholder="Enter the password">
+<br>
+<br>
+<input type="submit" onClick="onlynumber()">
+</form>
+<script>
+function onlynumber(){
+var mn=document.getElementById("membernumber").value;
+var pass=document.getElementById("password").value;
+var checknumber=/[0-9]/g;
+var len= mn.match(checknumber);
+if(mn==""){
+alert("Member number is not entered");
+}
+else if(pass==""){
+alert("Password not entered");
+}
+else if(mn.match(checknumber)){
+}
+else{
+alert("Member number should only in digit");
+}
+if(len.length!= mn.length){
+alert("Member number should only in digit");
+}
+else if(pass.length<4){
+alert("Password should be greater than 4 characters");
+}
+}
+</script>
+</body>
+</html>

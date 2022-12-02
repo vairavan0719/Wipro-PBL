@@ -1,0 +1,17 @@
+<html>
+<style>
+body{
+background-color:lightblue;
+}
+h1{
+background-color:gray;
+}
+p{
+background-color:red;
+}
+</style>
+<body>
+<h1>Heading</h1>
+<p>Passage</p>
+</body>
+</html>

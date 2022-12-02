@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<title>Demo</title>
+</head>
+<body>
+<h1>Start Learning Bootstrap</h1>
+<p>Lets start learning bootstrap<p>
+<form>
+<lable for="name">Name: </lable>
+<input type="text" id="name" name="name" value="">
+<form>
+<script src="js/bootstrap.min.js">
+
+</script>
+</body>
+</html>

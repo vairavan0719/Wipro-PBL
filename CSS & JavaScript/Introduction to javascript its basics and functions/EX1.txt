@@ -1,0 +1,13 @@
+<html>
+<style>
+body{
+color:red;
+}
+</style>
+<body>
+<script language="javascript">
+var a="Hello world";
+document.write(a);
+</script>
+</body>
+</html>

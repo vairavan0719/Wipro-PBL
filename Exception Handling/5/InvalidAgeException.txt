@@ -1,0 +1,12 @@
+public classInvalidAgeExceptionextends Exception{
+    public void invalidageexception(int a)throws InvalidAgeException{
+        
+        if(a>=18 && a<60{
+        InvalidAgeException b = new InvalidAgeException();
+        throw b;
+        }
+        else{
+            System.out.print("Details added sucessfully");
+        }
+    }
+}

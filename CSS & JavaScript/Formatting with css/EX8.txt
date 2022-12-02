@@ -1,0 +1,15 @@
+<html>
+<style>
+p{
+color:red;
+text-align:left;
+font-style:italic;
+font-weight:bold;
+font-family:verdana;
+font-size:20px;
+}
+</style>
+<body>
+<p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.</p>
+</body>
+</html>

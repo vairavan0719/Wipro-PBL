@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<title>Online Read| Ex 5</title>
+<script src="C:\Users\91770\Desktop\js\bootstrap.min.js">
+</script>
+<script src="C:\Users\91770\Desktop\js\jquery.min.js">
+</script>
+<style>
+BUTTON{
+font-family:msoffice;
+}
+</style>
+</head>
+<body >
+<button class="btn btn-light btn-lg">For All</button>
+<button class="btn btn-primary btn-lg ">Kids</button>
+<button class="btn btn-success btn-md">Teens</button>
+<button class="btn btn-info btn-md">Scientific</button>
+<button class="btn btn-danger btn-sm">Crime</button>
+<button class="btn btn-default btn-sm">Feedback</button>
+</body>
+</html>

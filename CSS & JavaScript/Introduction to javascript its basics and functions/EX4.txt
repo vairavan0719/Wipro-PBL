@@ -1,0 +1,24 @@
+<html>
+<style>
+body{
+font-weight:bold;
+font-size:20;
+}
+</style>
+<body  id="check" style="color:red">
+<script>
+var a=prompt();
+var res="";
+for(var i=0;i<a.length;i++){
+if(i==0){
+var b = a.charAt(i);
+res+=b.toUpperCase();
+}
+else{
+res+=a.charAt(i);
+}
+}
+document.getElementById("check").innerHTML = res;
+</script>
+</body>
+</html>

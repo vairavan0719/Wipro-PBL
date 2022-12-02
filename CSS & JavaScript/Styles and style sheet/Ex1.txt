@@ -1,0 +1,16 @@
+<html>
+<style>
+#p{
+text-align:center;
+font-size:27 px;
+font-family:arial;
+color:red;
+}
+</style>
+<body>
+<p id="p">
+My name is vairavan and i am comming from maduari<br>
+I love cricket and my favourite player is virat kohli.
+</p>
+</body>
+</html>

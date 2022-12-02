@@ -1,0 +1,5 @@
+body{
+font-size:24 px;
+font-family: verdana;
+background-color:#00BFFF;
+}

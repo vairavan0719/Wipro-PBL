@@ -1,0 +1,10 @@
+<html>
+<style>
+body{
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFeoD7D_idWVYoIOR0HvwAanpi_Rmnx7vI1Q&usqp=CAU");
+background-size:200px 200px;
+}
+</style>
+<body>
+</body>
+</html>

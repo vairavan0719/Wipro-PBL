@@ -1,0 +1,20 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<title>Front-end Framework | Ex1</title>
+<script src="C:\Users\91770\Desktop\js\bootstrap.min.js">
+</script>
+<script src="C:\Users\91770\Desktop\js\jquery.min.js">
+</script>
+</head>
+<body>
+<h5 class="container-fluid">SK<h5>
+<div class="demo">
+<img class="d-sm-none" src="https://www.filmibeat.com/fanimg/artist/27062/sivakarthikeyan-photos-images-62216.jpg" alt="Loding...." width="30%" height="30%">
+<img class="d-md-none" src="https://livecinemanews.com/wp-content/uploads/2020/03/sivakarthikeyan-images-81.jpg" alt="Loding...."width="30%" height="30%" >
+<img class="d-lg-none" src="https://livecinemanews.com/wp-content/uploads/2020/03/sivakarthikeyan-images-86.jpg" alt="Loding...." width="30%" height="30%">
+<img  class="d-xl-none" src="https://www.sify.com/uploads/siva_1_ukvnDpcacajgj.jpeg"  alt="Loding...." width="30%" height="30%">
+</div>
+
+</body>
+</html>

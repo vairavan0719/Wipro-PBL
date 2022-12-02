@@ -1,0 +1,19 @@
+<html>
+<style>
+input{
+color:red;
+width:500px;
+}
+</style>
+<body id="reverse">
+<form>
+<input type="text" id="date" name="date" value="">
+</form>
+<script>
+var date = setInterval(datetime,1000);
+function datetime(){
+document.getElementById('date').value=Date();
+}
+</script>
+</body>
+</html>

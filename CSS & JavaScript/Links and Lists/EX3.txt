@@ -1,0 +1,26 @@
+<html>
+<style>
+a:link{
+color:red;
+text-decoration:underline;
+background-color:FF0000;
+}
+a:visited{
+color:black;
+background-color:FFFF00;
+}
+a:hover{
+color:blue;
+text-decoration:none;
+background-color:FF00FF;
+}
+a:active{
+color:yellow;
+text-decoration:none;
+background-color:0000FF;
+}
+</style>
+<body>
+<a href="https://www.google.co.in/">Click hear</a>
+</body>
+</html>

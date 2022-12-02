@@ -1,0 +1,11 @@
+public class Main1{
+    public void Details(String a,int b){
+    try{
+        InvalidAgeException c = new InvalidAgeException();
+        c.InvalidAgeException();
+    }
+    catch{
+        System.out.print("Invalid Age.")
+    }
+    }
+}

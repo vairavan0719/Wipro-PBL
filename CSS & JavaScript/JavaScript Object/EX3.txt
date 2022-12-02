@@ -1,0 +1,20 @@
+<html>
+<style>
+body{
+color:blue;
+}
+</style>
+<body id="sample">
+<script>
+var a =prompt("Enter the sentence");
+var b=prompt("Enter the number");
+var res="";
+for(var i=0;i<a.length;i++){
+if(i!=b-1){
+res+=a.charAt(i);
+}
+}
+document.getElementById("sample").innerHTML=res;
+</script>
+</body>
+</html>

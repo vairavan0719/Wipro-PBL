@@ -1,0 +1,22 @@
+<html>
+<style>
+p.first{
+padding-left:3cm;
+}
+p.second{
+padding-right: 50%;
+}
+p.third{
+padding-bottom:25%;
+}
+p.fourth{
+padding.top:25%;
+}
+</style>
+<body>
+<p class="first">Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering branches.</p>
+<p class="second">Department of Mechanical Engineering of Chandigarh University is widely recognised as one among the best Mechanical engineering college and has established a trademark in entire region by producing a competent workforce in the past years. Chandigarh University course curriculum equips students with the expert knowledge and skills demanded in the wide-ranging areas of this the oldest yet promising engineering discipline. The best practices in the department are Competency Directed Curriculum ...</p>
+<p class="third">Mechanical engineering is an engineering branch that combines engineering physics and mathematics principles with materials science, to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering ...</p>
+<p class="fourth">Mechanical Engineering is considered an essential discipline is known for applying engineering principles to various life walks, including design, manufacturing, analysis, maintenance, etc.</p>
+</body>
+</html>

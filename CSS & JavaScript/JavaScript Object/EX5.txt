@@ -1,0 +1,20 @@
+<html>
+<style>
+lable{
+width:200px;
+display:inline-block;
+}
+</style>
+<body id="reverse" style="color:red">
+<form>
+<lable for="firstname">Enter the first name:</lable>
+<input type="text" id="firstname" name="firstname" value="" onBlur="fm()">
+</form>
+<script>
+function  fm(){
+var a =(document.getElementById('firstname').value);
+firstname.value=firstname.value.toUpperCase();
+}
+</script>
+</body>
+</html>

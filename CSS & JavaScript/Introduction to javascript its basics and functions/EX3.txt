@@ -1,0 +1,24 @@
+<html>
+<style>
+body{
+font-weight:bold;
+font-size:20;
+}
+</style>
+<body id="reverse" style="color:red">
+<script>
+var a=prompt();
+var b = a;
+var res="";
+for( var i=a.length-1;i>=0;i--){
+res+=a.charAt(i);
+}
+if(res==b){
+document.getElementById("reverse").innerHTML='It is palindrome';
+}
+else{
+document.getElementById("reverse").innerHTML='It is not palindrome';
+}
+</script>
+</body>
+</html>

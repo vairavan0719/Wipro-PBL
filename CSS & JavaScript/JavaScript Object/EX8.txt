@@ -1,0 +1,22 @@
+<html>
+<style>
+body{
+color:red;
+font-size:50px;
+}
+</style>
+<body id="reverse">
+<script>
+var a=prompt("Enter the number");
+document.getElementById("reverse").innerHtml=sample(a);
+function sample(b){
+if(parseInt(b)%2==0){
+document.getElementById('reverse').innerHTML="The given number "+b+" is even";
+}
+else{
+document.getElementById('reverse').innerHTML="The given number "+b+" is odd";
+}
+}
+</script>
+</body>
+</html>

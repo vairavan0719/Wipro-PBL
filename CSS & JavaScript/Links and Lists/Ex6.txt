@@ -1,0 +1,15 @@
+<html>
+<style>
+ul{
+list-style-image:url("https://raw.githubusercontent.com/skchaudhari903/Wipro-PJP/master/JavaScript%20-%20CSS/Links%20and%20Lists/Assignment06/pointer.png");
+}
+</style>
+<body>
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Bananna</li>
+<li>Kivi</li>
+</ul>
+</body>
+</html>

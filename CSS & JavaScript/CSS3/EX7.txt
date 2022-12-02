@@ -1,0 +1,14 @@
+<html>
+<style>
+p{
+text-align:center;
+border:1px solid black;
+transform:scale(2,3);
+}
+</style>
+<body>
+<p>
+I Love India
+</p>
+</body>
+</html>

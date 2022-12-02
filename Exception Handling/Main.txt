@@ -1,0 +1,11 @@
+public class Main{
+    public static void(String[]test){
+    int sum;
+    for(int i=0;i<test.length;i++){
+        test[i]=Integer.parseInt(test[i]);
+        sum+=test[0]
+    
+    }
+        System.out.print("Sum: "+sum);
+        System.out.print("Average: "+sum/5);
+}

@@ -1,0 +1,40 @@
+<html>
+<title>EX3</title>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<body>
+<h1>Welcome to my page</h1>
+<hr>
+<p>This is a trail for bootstrap</p>
+<hr>
+<table border="5"cellpadding="10px"  cellspacing="50px">
+<tr>
+<th>col1</th>
+<th>col2</th>
+</tr>
+<tr>
+<td>data1</td>
+<td>data1</td>
+</tr>
+<tr>
+<td>data3</td>
+<td>data4</td>
+</tr>
+</table>
+<hr>
+<br>
+<br>
+<form>
+<lable for="name">Name : </lable>
+<input type="text" id="name" name="name" value="">
+<br>
+<br>
+<input type="submit">
+</form>
+<hr>
+<a href="https://www.google.co.in/" >Click</a>
+<hr>
+<img src="https://imageio.forbes.com/specials-images/imageserve/5ecebee7938ec500060ab34f/0x0.jpg?format=jpg&crop=2336,2337,x1064,y702,safe&height=416&width=416&fit=bounds" alt="Loding....">
+<h5>Virat Kohli</h5>
+<hr>
+</body>
+</html>

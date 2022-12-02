@@ -1,0 +1,21 @@
+<html>
+<title>EX3</title>
+<body>
+<h1>Welcome to my page</h1>
+<p>This is a trail for bootstrap</p>
+<table border="5"cellpadding="50px"  cellspacing="50px" width=30% height=50% >
+<tr>
+<th>col1</th>
+<th>col2</th>
+</tr>
+<tr>
+<td>data1</td>
+<td>data1</td>
+</tr>
+<tr>
+<td>data3</td>
+<td>data4</td>
+</tr>
+</table>
+</body>
+</html>

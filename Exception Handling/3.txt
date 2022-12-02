@@ -1,0 +1,35 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]test){
+    Scanner input = new Scanner(System.in);
+    try{
+     int a[]= new int[3];
+     int sum1=0;
+    int b[]= new int[3];
+    int sum=0;
+     System.out.print("Enter the marks of the first student: ");
+     for(int i=0;i<3;i++){
+        
+        a[i]=input.nextInt();
+        if(a[i]>=0 || a[i]<=100){
+throw new NumberFormatException("Not valid");
+        }
+        else{
+            sum+=a[i];
+        } 
+     }
+    
+     System.out.print("Enter the marks of the second student: ");
+      for(int i=0;i<3;i++){
+        b[i]=input.nextInt();
+        sum1+=b[i];
+     }
+     System.out.print("Average: "+sum/3+"\n");
+      System.out.print("Average: "+sum1/3);
+    
+    }
+    catch(InputMismatchException e){
+    System.out.print("Not valid");    
+    }
+    }
+}

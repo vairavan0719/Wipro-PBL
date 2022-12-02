@@ -1,0 +1,16 @@
+<html>
+<style>
+p{
+border:1px solid black;
+height:150px;
+width:180px;
+background:url("https://upload.wikimedia.org/wikipedia/commons/b/b3/Tetrastix.gif");
+background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+<body>
+<p>
+</p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<style>
+lable{
+width:200px;
+display:inline-block;
+}
+</style>
+<body id="reverse" style="color:red">
+<form>
+<lable for="firstnumber">Enter the first number:</lable>
+<input type="text" id="firstnumber" name="firstnumber" value="">
+<br>
+<br>
+<lable for="secondnumber">Enter the second number:</lable>
+<input type="text" id="secondnumber" name="secondnumber" value="">
+<br>
+<br>
+<input type="button" value="Calculate" onClick="document.getElementById('reverce').innerHTML= fm()"></input>
+</form>
+<script>
+function  fm(){
+var a =parseInt(document.getElementById('firstnumber').value);
+var b =parseInt(document.getElementById('secondnumber').value);
+document.getElementById("reverse").innerHtml=alert(a+b);
+}
+</script>
+</body>
+</html>

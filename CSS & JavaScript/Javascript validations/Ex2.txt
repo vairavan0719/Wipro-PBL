@@ -1,0 +1,53 @@
+<html>
+<style>
+lable{
+display:inline-block;
+width:120px;
+}
+</style>
+<body id="reverse">
+<form>
+<lable for="mobilenumber">Mobile number:</lable>
+<input type="text" id="mobilenumber" name="mobilenumber" placeholder="Enter your mobile number" value="" onBlur="mm()">
+<br>
+<br>
+<input type="submit" onClick="fm()">
+</form>
+<script>
+function fm(){
+var mn =document.getElementById('mobilenumber').value;
+var len=mn.length;
+for(var i=0;i<len;i++){
+if((parseInt(mn.charAt(i))>=0 || parseInt(mn.charAt(i))<=9 )& (mn.charAt(3)== '-'  || mn.charAt(6)=='-')){
+
+}
+else{
+alert("**Mobile number sholud be in numbers**");
+break;
+}
+}
+if(len==0){
+alert("**Mobile number not entered**");
+}
+else if(len<=10){
+alert("**Mobile number not entered correctly**");
+}
+}
+function mm(){
+var mn =document.getElementById('mobilenumber').value;
+count=0;
+var res=""
+for(var j=0;j<=10;j++){
+if(count!=3|| count!=6){
+res+=mn.charAt(j);
+count+=1;
+}
+if(count==3||count==6){
+res+='-';
+}
+}
+document.getElementById('mobilenumber').value=res;
+}
+</script>
+</body>
+</html>

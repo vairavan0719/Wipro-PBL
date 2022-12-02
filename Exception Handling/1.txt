@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]test){
+    try{
+        Scanner input=  new Scanner(System.in);
+        System.out.print("Enter the number of elements in the array: ");
+        int sa = input.nextInt();
+        System.out.print("\n"+"Enter the elements in the array: ");
+        int a[]= new int[sa];
+        for(int i=0;i<sa;i++){
+            int b=input.nextInt();
+            a[i]=b;
+        }
+        System.out.print("\n"+"Enter the index of the array you want to access: ");
+        int f = input.nextInt();
+        System.out.print("\n"+"The array index at index "+f +" = " +a[f]+"\n"+"The array elements sucessfully accessed");
+       }
+       catch(ArrayIndexOutOfBoundsException o){
+          System.out.print(o);
+       }
+       catch(InputMismatchException e){
+          System.out.print("\n"+e);
+       }
+        
+    }
+}

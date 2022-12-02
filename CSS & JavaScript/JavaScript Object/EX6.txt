@@ -1,0 +1,17 @@
+<html>
+</style>
+<body id="reverse">
+<a href="#" onClick="color('white')">white</a>
+<br>
+<a href="#" onClick="color('red')">red</a>
+<br>
+<a href="#" onClick="color('blue')">blue</a>
+<br>
+<a href="#" onClick="color('pink')">pink</a>
+<script>
+function color(c){
+document.getElementById("reverse").style.backgroundColor= c;
+}
+</script>
+</body>
+</html>

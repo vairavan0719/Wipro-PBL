@@ -1,0 +1,20 @@
+<html>
+<style>
+body{
+color:red;
+}
+</style>
+<body>
+<script language="javascript">
+var a=32243;
+var res =0;
+var rem=0;
+while(a>0){
+rem=a%10;//3
+res =(res*10)+rem;
+a=parseInt(a/10);
+}
+document.write(res);
+</script>
+</body>
+</html>

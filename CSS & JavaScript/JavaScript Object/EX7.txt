@@ -1,0 +1,13 @@
+<html>
+<body id="reverse">
+<script>
+var a=prompt("Enter the name");
+var b=prompt("Enter the number");
+var c=prompt("Enter the number");
+document.getElementById("reverse").innerHtml=sample()
+function sample(){
+alert(Date()+"\n"+'Hello'+" "+a+"\n"+(parseInt(b)+parseInt(c)));
+}
+</script>
+</body>
+</html>

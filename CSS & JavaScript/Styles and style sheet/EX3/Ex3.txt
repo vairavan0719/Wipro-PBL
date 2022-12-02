@@ -1,0 +1,9 @@
+<html>
+<link rel="stylesheet" type="text/css" href="ex.css">
+<body>
+<p >
+My name is vairavan and i am comming from maduari<br>
+I love cricket and my favourite player is virat kohli.
+</p>
+</body>
+</html>

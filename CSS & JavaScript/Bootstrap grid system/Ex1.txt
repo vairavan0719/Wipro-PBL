@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<title>Online Read| Ex 5</title>
+<script src="C:\Users\91770\Desktop\js\bootstrap.min.js">
+</script>
+<script src="C:\Users\91770\Desktop\js\jquery.min.js">
+</script>
+<style>
+h1{
+text-align:center;
+color:red;
+padding:10px;
+background:yellow;
+}
+p{
+text-align:center;
+color:white;
+padding:10px;
+background-color:red;
+font-size:25;
+}
+</style>
+</head>
+<body >
+<div clas="container-fluid">
+<div class="row">
+<div class="col-lg-3">
+<p>On 26th January, we celebrate republic day every consecutive year in India. In 1950, the Constitution was started by our freedom fighters. India turned into a secular and law-based or democratic nation on this day. On this day, all the workplaces and organizations stay close as this day is a national occasion.</p>
+</div>
+<div class="col-lg-3">
+<p style="background-color:orange">On 26th January, we celebrate republic day every consecutive year in India. In 1950, the Constitution was started by our freedom fighters. India turned into a secular and law-based or democratic nation on this day. On this day, all the workplaces and organizations stay close as this day is a national occasion.</p>
+</div>
+<div class="col-lg-3">
+<p style="background-color: white;color:black">On 26th January, we celebrate republic day every consecutive year in India. In 1950, the Constitution was started by our freedom fighters. India turned into a secular and law-based or democratic nation on this day. On this day, all the workplaces and organizations stay close as this day is a national occasion.</p>
+</div>
+<div class="col-lg-3">
+<p style="background-color:green">On 26th January, we celebrate republic day every consecutive year in India. In 1950, the Constitution was started by our freedom fighters. India turned into a secular and law-based or democratic nation on this day. On this day, all the workplaces and organizations stay close as this day is a national occasion.</p>
+</div>
+</div>
+</div>
+</body>
+</html>

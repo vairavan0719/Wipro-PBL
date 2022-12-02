@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\91770\Desktop\css\bootstrap.min.css">
+<title>Front-end Framework | Ex2</title>
+<script src="C:\Users\91770\Desktop\js\bootstrap.min.js">
+</script>
+<script src="C:\Users\91770\Desktop\js\jquery.min.js">
+</script>
+</head>
+<body>
+<table class="table table-striped  " width="10%" height="50%" >
+<tr>
+<th>Food</th>
+<th>Calories</th>
+</tr>
+<tr class="btn-info">
+<td>Candy</th>
+<td>396</td>
+</tr>
+<tr class="btn-info">
+<td>Rice</th>
+<td>323</td>
+</tr>
+<tr class="btn-warning">
+<td>Olive oil</th>
+<td>899</td>
+</tr>
+<tr class="btn-warning">
+<td>Butter</th>
+<td>740</td>
+</tr>
+<tr class="btn-success">
+<td>Carrot</th>
+<td>33</td>
+</tr>
+<tr class="btn-danger">
+<td >Chicken briyani</th>
+<td>1000</td>
+</tr>
+</table>
+</body>
+</html>

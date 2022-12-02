@@ -1,0 +1,20 @@
+<html>
+<style>
+h1{
+border: 20px solid;
+border-image:url("https://www.w3schools.com/cssref/border.png")30 round;
+padding:15px;
+border-image-repeat:stretch;
+}
+h2{
+border: 10px solid;
+border-image:url("https://www.w3schools.com/cssref/border.png")30 round;
+padding:15px;
+border-image-repeat:repeat;
+}
+</style>
+<body>
+<h1>WELCOME TO CSS WORLD</h1>
+<h2>WELCOME TO CSS WORLD</h2>
+</body>
+</html>

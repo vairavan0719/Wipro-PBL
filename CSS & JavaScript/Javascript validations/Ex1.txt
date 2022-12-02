@@ -1,0 +1,46 @@
+<html>
+<style>
+lable{
+display:inline-block;
+width:120px;
+}
+</style>
+<body id="reverse">
+<form>
+<lable for="membernumber">Member number:</lable>
+<input type="text" id="membernumber" name="membernumber" placeholder="Enter your member number" value="">
+<br>
+<br>
+<lable for="password">Passowrd: </lable>
+<input type="text" id="password" name="password"  placeholder="Enter your password" value="">
+<br>
+<br>
+<input type="submit" onClick="fm()">
+</form>
+<script>
+function fm(){
+var mr =document.getElementById('membernumber').value;
+var p=document.getElementById('password').value;
+var len=p.length;
+var lenn=mr.length;
+for(var i=0;i<lenn;i++){
+if(parseInt(mr.charAt(i))>=0 || parseInt(mr.charAt(i))<=9){
+
+}
+else{
+alert("**Member is sholud be in numbers**");
+}
+}
+if(len<=4){
+alert("**Password is less than 4 character**");
+}
+if(len==0){
+alert("**Password is not entered**");
+}
+if(lenn==0){
+alert("**Member number is not entered**");
+}
+}
+</script>
+</body>
+</html>

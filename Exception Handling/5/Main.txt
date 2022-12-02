@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main{
+    public static void main(String[]test){
+    Scanner input = new Scanner(System.in);    
+    test[0]= input.nextLine();
+    test[1]= input.nextLine();
+    int b = Integer.parseInt(test[1]);
+    Main1 c= new Main1();
+    c.Details(test[0],b);
+        
+    }
+}

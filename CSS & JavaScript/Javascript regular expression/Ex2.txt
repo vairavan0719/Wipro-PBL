@@ -1,0 +1,56 @@
+<html>
+<style>
+lable{
+display:inline-block;
+width:120px;
+}
+</style>
+<body id="body">
+<form>
+<lable for="mobilenumber">Mobile Number : </lable>
+<input type="text" id="mobilenumber" name="mobilenumber" value="" placeholder="Enter the mobile number" onBlur="change()">
+<br>
+<br>
+<input type="submit" onClick="validate()" >
+</form>
+<script>
+function validate(){
+var mn = document.getElementById("mobilenumber").value;
+var num=/\d{10}/g;
+var res="";
+for(var i=0 ; i<=11;i++){
+if(i==3 || i==7){
+}
+else{
+res+=mn.charAt(i);
+}
+}
+if(res.length<10){
+alert("**Invalid Mobile number**");
+}
+if(res.match(num)){
+document.getElementById('body').innerHTML=res;
+}
+else{
+alert("Mobile number should be in numbers");
+}
+}
+function change(){
+var mn=document.getElementById("mobilenumber").value;
+var res="";
+for(var i=0 ; i<=10;i++){
+if(i==2 || i==5){
+res+=mn.charAt(i);
+res+='-';
+}
+else{
+res+=mn.charAt(i);
+}
+document.getElementById("mobilenumber").value=res;
+}
+}
+</script>
+<p id="m">
+</p>
+</body>
+</html>

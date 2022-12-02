@@ -1,0 +1,20 @@
+<html>
+<body id="sample">
+<script>
+var a =prompt();
+var position=a.indexOf("world");
+var b=a.split(" ");
+var sp=0;
+for(var i=0;i<b.length;i++){
+if(b[i]!="world"){
+sp+=1;
+}
+else{
+sp+=1;
+break;
+}
+}
+document.getElementById("sample").innerHTML=a+"<br>"+position+"<br>"+sp;
+</script>
+</body>
+</html>
