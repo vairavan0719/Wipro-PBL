@@ -1,0 +1,39 @@
+a) 
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]test){
+Scanner input = new Scanner(System.in);
+int a=input.nextInt();
+if(a>0){
+System.out.print("Positive");
+}
+else if (a<0){
+    System.out.print("Negative");
+}
+else{
+    System.out.print("Zero");
+}
+    }
+}
+
+
+
+b) 
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]test){
+Scanner input = new Scanner(System.in);
+int a=input.nextInt();
+int b=input.nextInt();
+a =a%10;
+b = b%10;
+
+if(a==b){
+System.out.print("True");
+}
+else{
+    System.out.print("False");
+}
+    }
+}
