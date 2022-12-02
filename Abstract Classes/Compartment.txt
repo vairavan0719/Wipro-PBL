@@ -1,0 +1,27 @@
+import java.util.Random;
+abstract class Compartment{
+    public abstract void notice();
+}
+class FirstClass extends Compartment{
+    void notice(){
+    System.out.print("First Class");}
+    
+}
+class Ladies extends Compartment{
+     void notice(){
+    System.out.print("Ladies");
+         
+}
+    
+}
+class General extends Compartment{
+     void notice(){
+    System.out.print("General");
+    
+}
+}
+class Luggage extends Compartment{
+     void notice(){
+    System.out.print("Luggage");
+}
+}

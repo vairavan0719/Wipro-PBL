@@ -1,0 +1,29 @@
+import java.util.Random;
+public class TestCompartment{
+    public static void main(String[]test){
+    Compartment c []= new Compartment[10];
+    }
+    for (int i =0;i<c.length;i++){
+    Random d = new Random();
+    int x = d.nextInt(4); 
+    
+    if(x==0){
+    Compartment[i] = new FirstClass();
+    }
+    else if(x==1){
+    Compartment[i] = new Ladies();
+    }
+    else if(x==2){
+    Compartment[i] = new General();
+    }
+    else if(x==3){
+    Compartment[i] = new Luggage();
+    }
+            
+    Compartment[i].notice();        
+    }
+    
+    }
+    
+
+}
