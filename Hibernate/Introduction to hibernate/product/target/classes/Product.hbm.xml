@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 25, 2022 1:50:12 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.wipro.product.Product" table="PRODUCT">
+        <id name="product_id" type="int">
+            <column name="PRODUCT_ID" />
+            <generator class="sequence">
+            <param name="sequence">update_sequence</param>
+            </generator>
+        </id>
+        <property name="product_name" type="string">
+            <column name="PRODUCT_NAME" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" />
+        </property>
+    </class>
+</hibernate-mapping>

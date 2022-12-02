@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 25, 2022 8:46:52 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.wipro.DeleteData.Delete" table="flower">
+        <id name="flower_id" type="int">
+            <column name="FLOWER_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="flower_name" type="java.lang.String">
+            <column name="FLOWER_NAME" />
+        </property>
+        <property name="price" type="int">
+            <column name="PRICE" />
+        </property>
+    </class>
+</hibernate-mapping>
