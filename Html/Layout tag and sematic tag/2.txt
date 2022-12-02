@@ -1,0 +1,15 @@
+<html>
+<body>
+<ol Type ="1">
+<h1> Name </h1>
+<li> Vairavan </li>
+<li> Ram </li>
+</ol>
+<ul style ="list-style-type :square">
+<h1> Name </h1>
+<li> Vairavan </li>
+<li> Ram </li>
+</ul> 
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<html>
+<body>
+<h1>Center</h1>
+<h1>Right</h1>
+<h1>Left</h1>
+</body>
+</html>

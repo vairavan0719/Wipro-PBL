@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<style>
+.div{
+background-color:lightblue;
+text-align:center;
+color: green;
+}
+</style>
+<body>
+<div class="div">
+<table border=2 width=100% height=150%>
+<tr>
+<td>
+<h1>Visitor Information</h1>
+<form action="https://chellammal.edu.in/wp-content/uploads/2017/12/Screenshot_2016-06-17_09.33.55.jpg">
+<lable for="email"><b>Email</b></lable><br>
+<input type="email" placeholder="Enter the email id" name="email" ><br>
+<br>
+<lable for="user"><b>User's Interest</b></lable><br>
+<input type="checkbox" name="user" values="Web">Web</input><br>
+<input type="checkbox" name="user" values="Research">Research</input><br>
+<br>
+<lable for="occ"><b>Occupation</b> </lable>
+<select name="occ">
+<option name="occ" >Select one</option>
+<option name="occ" value="Doctor" >Doctor</option>
+<option name="occ" value="Engineer">Engineer</option>
+<option name="occ" value="Farmer">Farmer</option>
+</select>
+<br>
+<br>
+<lable for="check"><b>Check any one</b></lable><br>
+<input  type="radio"name="check" value="absolutely">Absolutely</input><br>
+<input  type="radio"name="check" value="no way man">No way man</input><br>
+<hr>
+<input  type="submit">
+<input  type="reset">
+</tr>
+</td>
+</table>
+</div>
+</body>
+</html>

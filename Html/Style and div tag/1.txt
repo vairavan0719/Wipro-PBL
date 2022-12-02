@@ -1,0 +1,19 @@
+<html>
+<body>
+<style>
+tr,th,td{
+font-family="Times new roman";
+}
+</style>
+<table border=2>
+<tr>
+<th>Decimal</th>
+<th>English</th>
+<th>Spanish</th>
+<th>Korean</th>
+</tr>
+<td>One</td>
+<td>Uno</td>
+<td>Haan</td>
+<td>0001</td>
+</tr>

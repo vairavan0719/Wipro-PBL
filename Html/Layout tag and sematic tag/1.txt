@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1 style ="text-align:center;">V</h1>
+<h2 style ="text-align:center;">A</h2>
+<h3 style ="text-align:center;">I</h3>
+<h4 style ="text-align:center;">R</h4>
+<h5 style ="text-align:center;">A</h5>
+<h6 style ="text-align:center;">V</h6>
+<h1 style ="text-align:center;">A</h1>
+<h2 style ="text-align:center;">N</h2>
+</body>
+</html>

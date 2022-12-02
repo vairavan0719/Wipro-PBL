@@ -1,0 +1,36 @@
+<html>
+<body>
+<table border="2" cellpadding="100%">
+<tr>
+<td>
+<h1>Vision information</h1>
+<form>
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="email"> </input><br>
+<br>
+<label for="research">Interest web</label><br>
+<input type="checkbox" id="research" name="research" >Research</input><br>
+<label for ="purchase"></label>
+<input type="checkbox" id="purchase" name="purchase" > Purchase</input><br>
+<br>
+<label for="occupation">Occupation</label><br>
+<select name="occupation" id="occupation">
+<option value="">Select one </option>
+<option value="farmer">Farmer </option>
+<option value="engineer">Engineer </option>
+<option value="doctor">Doctor </option>
+</select><br>
+<br>
+<br>
+<label for=juck>Want us to send you junk emails</label><br>
+<input type ="radio" id="junk" name="junk" value="Absolutely">Absolutely </input><br>
+<label for=juck1></label><br>
+<input type ="radio" id="junk1" name="junk1" value="No way man"> No way man</input><br>
+<hr>
+<input type="submit" value="Submit"></input>
+<input type="reset" value="Reset"></input>
+</td>
+</tr>
+</table>
+</body>
+</html>

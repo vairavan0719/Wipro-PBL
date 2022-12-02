@@ -1,0 +1,46 @@
+<html>
+<title>Registation Form</title>
+<body>
+<form align="center" action="https://madhuanbalagan.com/wp-content/uploads/2018/08/ThankYou-300x138.jpg">
+<label for="username">Username</label>
+<br>
+<input type="text" id="username" name="usename"></input>
+<br>
+<label for="password">Password</label>
+<br>
+<input type="password" id="password" name="password"></input>
+<br>
+<label for="conpassword">Conform Password</label>
+<br>
+<input type="password" id="conpassword" name="conpassword"></input>
+<br>
+<label for="name">Name</label>
+<br>
+<input type="text" id="name" name="name"></input>
+<br>
+<label for="male">Gender</label>
+<br>
+<input type="radio" id="male" name="male" value="Male">Male</input>
+<br>
+<label for="female"></label>
+<input type="radio" id="female" name="female" value="Female">Female</input>
+<br>
+<label for="address">Address </label>
+<br>
+<textarea id="address" name="address" row="4" col="50">
+</textarea>
+<br>
+<label for="proffession">Proffession</label>
+<br>
+<select >
+<option id="proffession" name="proffession" value="">Select one</option>
+<option id="proffession" name="proffession" value="Engineer">Engineer</option>
+<option id="proffession" name="proffession" value="Farmer">Farmer</option>
+<option id="proffession" name="proffession" value="Doctor">Doctor</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Submit"></input>
+</form>
+</body>
+</html>

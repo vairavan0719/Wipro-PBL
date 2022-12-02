@@ -1,0 +1,95 @@
+<html>
+<style>
+.div{
+font-size:20;
+font-family:Verdana;
+color:red;
+background-color:lightblue;
+}
+.div1{
+font-size:25;
+font-family:segoe ui;
+color:green;
+background-color:yellow;
+}
+</style>
+<body style="background-color: green">
+<div class="div">
+<table border="2" cellpadding="100%">
+<tr>
+<td>
+<h1>Vision information</h1>
+<form>
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="email"> </input><br>
+<br>
+<label for="research">Interest web</label><br>
+<input type="checkbox" id="research" name="research" >Research</input><br>
+<label for ="purchase"></label>
+<input type="checkbox" id="purchase" name="purchase" > Purchase</input><br>
+<br>
+<label for="occupation">Occupation</label><br>
+<select name="occupation" id="occupation">
+<option value="">Select one </option>
+<option value="farmer">Farmer </option>
+<option value="engineer">Engineer </option>
+<option value="doctor">Doctor </option>
+</select><br>
+<br>
+<br>
+<label for=juck>Want us to send you junk emails</label><br>
+<input type ="radio" id="junk" name="junk" value="Absolutely">Absolutely </input><br>
+<label for=juck1></label><br>
+<input type ="radio" id="junk1" name="junk1" value="No way man"> No way man</input><br>
+<hr>
+<input type="submit" value="Submit"></input>
+<input type="reset" value="Reset"></input>
+</td>
+</tr>
+</table>
+</div>
+<div class="div1">
+<form align="center" action="https://madhuanbalagan.com/wp-content/uploads/2018/08/ThankYou-300x138.jpg">
+<label for="username">Username</label>
+<br>
+<input type="text" id="username" name="usename"></input>
+<br>
+<label for="password">Password</label>
+<br>
+<input type="password" id="password" name="password"></input>
+<br>
+<label for="conpassword">Conform Password</label>
+<br>
+<input type="password" id="conpassword" name="conpassword"></input>
+<br>
+<label for="name">Name</label>
+<br>
+<input type="text" id="name" name="name"></input>
+<br>
+<label for="male">Gender</label>
+<br>
+<input type="radio" id="male" name="male" value="Male">Male</input>
+<br>
+<label for="female"></label>
+<input type="radio" id="female" name="female" value="Female">Female</input>
+<br>
+<label for="address">Address </label>
+<br>
+<textarea id="address" name="address" row="4" col="50">
+</textarea>
+<br>
+<label for="proffession">Proffession</label>
+<br>
+<select >
+<option id="proffession" name="proffession" value="">Select one</option>
+<option id="proffession" name="proffession" value="Engineer">Engineer</option>
+<option id="proffession" name="proffession" value="Farmer">Farmer</option>
+<option id="proffession" name="proffession" value="Doctor">Doctor</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Submit"></input>
+</form>
+</div>
+</body>
+</html>

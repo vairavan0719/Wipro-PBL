@@ -1,0 +1,9 @@
+public class Main1 implements EX4{
+public static void main(String[]test){
+ 
+ EX4 a=(String str)->{
+ System.out.print(str.length());
+ };
+ a.count("Vairavan");
+ 
+}
